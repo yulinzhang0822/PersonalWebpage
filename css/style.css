@@ -72,7 +72,7 @@ body a:hover{
 	padding:20px 0;
 }
 .header-top ul li a {
-    color: #fff;
+    color: black;
     font-size: 14px;
     text-decoration: none;
 	outline:none;
@@ -110,13 +110,13 @@ body a:hover{
 }
 .pro-text p {
     font-size: 15px;
-    color: #fff;
+    color: black;
 }
 .header-right ul li {
     font-size: 14px;
     line-height: 3em;
     list-style-type: none;
-    color: #fff;
+    color: black;
 }
 ul.list-left {
     float: left;
@@ -131,7 +131,7 @@ ul.list-left li {
     color: #10A7AF;
 }
 .header-right ul li a {
-    color: #fff;
+    color: black;
     text-decoration: none;
 }
 .header{
