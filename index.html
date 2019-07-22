@@ -1,0 +1,1570 @@
+
+<!--
+Author: LeonardZhang
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Yulin Zhang's Personal Website</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Resume Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+<!-- fonts -->
+<link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Acme' rel='stylesheet' type='text/css'><!-- //fonts -->
+
+	<!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smoth-scrolling -->
+
+<!-- skills -->
+<script src="js/pie-chart.js" type="text/javascript"></script>
+ <script type="text/javascript">
+
+        $(document).ready(function () {
+            $('#demo-pie-1').pieChart({
+                barColor: '#10A7AF',
+                trackColor: '#fff',
+                lineCap: 'round',
+                lineWidth: 8,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+
+            $('#demo-pie-2').pieChart({
+                barColor: '#10A7AF',
+                trackColor: '#fff',
+                lineCap: 'butt',
+                lineWidth: 8,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+
+            $('#demo-pie-3').pieChart({
+                barColor: '#10A7AF',
+                trackColor: '#fff',
+                lineCap: 'square',
+                lineWidth: 8,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+			
+			$('#demo-pie-4').pieChart({
+                barColor: '#10A7AF',
+                trackColor: '#fff',
+                lineCap: 'square',
+                lineWidth: 8,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+        });
+    </script>
+<!-- skills -->
+<script type="text/javascript" src="js/numscroller-1.0.js"></script>
+
+</head>
+<body>
+<!-- banner -->
+<div class="header-top">
+	<div class="container">
+		<ul>
+			<li><a class="scroll" href="#about"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>About me</a></li>
+			<li><a class="scroll" href="#education"><span class="glyphicon glyphicon-certificate" aria-hidden="true"></span>Education</a></li>
+			<li><a class="scroll" href="#research"><span class="glyphicon glyphicon-list" aria-hidden="true"></span>Research Experience</a></li>
+			<li><a class="scroll" href="#publication"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>Publication</a></li>
+			<li><a class="scroll" href="#skills"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span>Skills & Projects</a></li>
+			<li><a class="scroll" href="#hobbies"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>Hobbies & Favorites</a></li>
+			<li><a class="scroll" href="#contact"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>Contact</a></li>
+			<li><a href="doc/CV.pdf" target="_blank"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>CV</a></li>
+		</ul>
+	</div>
+</div>	
+<div class="header">
+	<div class="container">
+		<div class="col-md-8 header-left">
+			<div class="col-sm-5 pro-pic">
+				<img class="img-responsive" src="images/pic1.jpg" alt=" "/>
+			</div>
+			<div class="col-sm-5 pro-text">
+				<h1>Yulin Zhang</h1>
+				<p>Student at Jilin University</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="col-md-4 header-right ">
+			<ul class="list-left">
+				<li>Email:</li>
+				<li>Birthday:</li>
+				<li>Birthplace:</li>
+				<li>Address:</li>
+			</ul>
+			<ul class="list-right">
+				<li><a href="mailto:zhangyl_0822@163.com">zhangyl_0822@163.com</a></li>
+				<li>August 22, 1996</li>
+				<li>Guangzhou, China</li>
+				<li>Tianhe Road, Tianhe District, Guangzhou City.</li>
+			</ul>
+			<div class="clearfix"></div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- //banner -->
+<!-- about -->
+<div id="about" class="about">
+	<div class="container">
+		<h3 class="tittle">About Me</h3>
+		<p class="abt-para" align="left">I was born and grew up in Guangzhou, China. I received high school education at the affiliated high school of South China Normal University, where I made friends with many of the most talented peers in Guangdong Province, China. The moment when I spent studying with them was one of the most unforgettable parts in my life. After I graduated from high school, I began to study at Jilin University in Changchun, China, pursuing for a bachelor degree. Though my university was thousands of miles away from my home, I cultivated my ability of concentrating on my study, without missing my home too much. I am a senior student now, and I am going to apply for a master degree at U.S. I hope I could grab an offer from some of the best universities in the early 2019.</p>
+	</div>
+	<div id="education" class="container">
+		<h3 class="tittle ">Education</h3>
+		<div class="col-md-12">
+				<div class="accordion">
+							<div class="accordion-section">
+								<h5><a class="accordion-section-title" href="#accordion-1">
+									<span>2015 - 2019</span>B.S. in Computer Science at Jilin University
+								<i class="glyphicon glyphicon-chevron-down"></i><div class="clearfix"></div>
+								</a></h5>
+								<div id="accordion-1" class="accordion-section-content">
+									<h6>Competitions & Activities</h6>
+									<ul>
+										<li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><a href="#">Second-class Scholarship (Top 15%, 2016&2017)</a></li>
+										<li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><a href="#">First-class Scholarship (Top 5%, 2018)</a></li>
+										<li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><a href="#">2nd Prize, Contemporary Undergraduate Mathematical Contest in Modeling (Jilin Province) (11/2017)</a></li>
+										<li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><a href="#">2nd Prize, Jilin Province Mathematical Contest in Modeling for University Students (06/2017)</a></li>
+										<li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><a href="#">Winner (1/180), One-minute Basketball Shooting Competition in JLU Sports Meeting (05/2017)</a></li>
+										<li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><a href="#">1st Prize, Taichi Competition in JLU Sports Meeting (05/2016)</a></li>
+										<li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><a href="#">Volunteer, JLU College of Computer Science and Technology (09/2015-06/2016)</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="accordion-section">
+								<h5><a class="accordion-section-title" href="#accordion-2">
+									<span>2009 - 2015</span>The Affiliated High School of South China Normal University
+								<i class="glyphicon glyphicon-chevron-down"></i><div class="clearfix"></div>
+								</a></h5>
+								<div id="accordion-2" class="accordion-section-content">
+									<h6>Activities</h6>
+									<ul>
+										<li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><a href="#">School Basketball Team (2012-2013)</a></li>
+										<li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><a href="#">2nd Prize, National Mathematics Contest for Junior High School Students (2011)</a></li>
+									</ul>
+								</div>
+							</div>
+			    </div>
+		</div>
+		<div class="clearfix"></div>
+				<script>
+							jQuery(document).ready(function() {
+								function close_accordion_section() {
+									jQuery('.accordion .accordion-section-title').removeClass('active');
+									jQuery('.accordion .accordion-section-content').slideUp(300).removeClass('open');
+								}
+
+								jQuery('.accordion-section-title').click(function(e) {
+									// Grab current anchor value
+									var currentAttrValue = jQuery(this).attr('href');
+
+									if(jQuery(e.target).is('.active')) {
+										close_accordion_section();
+									}else {
+										close_accordion_section();
+
+										// Add active class to section title
+										jQuery(this).addClass('active');
+										// Open up the hidden content panel
+										jQuery('.accordion ' + currentAttrValue).slideDown(300).addClass('open'); 
+									}
+
+									e.preventDefault();
+								});
+							});
+				</script>
+	</div>
+<!-- about -->
+<!-- education -->
+<div id="research" class="more">
+	<div class="container">
+		<h3 class="tittle ">Research Experience</h3>
+		<div class="col-md-12 skill-center ">
+				<div class="more-gds">
+					<div class="col-sm-3 more-left">
+						<span class="glyphicon glyphicon-scissors" aria-hidden="true"></span>
+					</div>
+					<div class="col-sm-9 more-right">
+						<h4>University of Florida - 2018 Summer Deep Learning Workshop (07/2018-08/2018)</h4>
+						<p>Took lectures about concepts of convolutional network, such as convolution, filters, stride, padding, pooling; learned to build a virtual environment on Anaconda; learned to use deep learning libraries such as Tensorflow, Keras and Pytorch; established and trained an NN model on Fashion-MNIST dataset (final project); trained 4 models (CNN, ResNet, DenseNet and WRN) on GPU using Pytorch, developed a Dense & Wide ResNet model with 95% testing accuracy, won the Best Team Presentation Award</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="more-gds yes_marg">
+					<div class="col-sm-9 more-right2">
+						<h4>Sidelobe Suppression for Cooperative Beamforming with Group Intelligence Optimization Algorithm (05/2017-05/2018)</h4>
+						<p>Collected the latest research results regarding collaborative beamforming technology in the field of wireless sensor networks, consulted relevant literature and materials on various group intelligent optimization algorithms; assisted in designing the Online Simulation Design System of Cooperative Beamforming Pattern, responsible for data storage and model visualization of the system; owned software copyright; put forwarded an improved cuckoo search algorithm for optimizing the beam patterns of the random antenna arrays, verified the effectiveness of the algorithm on MATLAB</p>
+					</div>
+					<div class="col-sm-3 more-left">
+						<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+					</div>
+				</div>
+		</div>
+	</div>
+</div>
+<!-- about -->
+<!-- publication -->
+<div id="publication" class="more">
+	<div class="container">
+		<h3 class="tittle ">Publication</h3>
+		<div class="col-md-12 skill-center ">
+				<div class="more-gds">
+					<div class="col-sm-9 more-right2">
+						<h4>An Improved Cuckoo search Algorithm for Optimizing the Beam Patterns of the Random Antenna Arrays</h4>
+						<li><a href="doc/IC040.pdf" target="_blank">view article</a></li>
+					</div>
+				</div>
+		</div>
+	</div>
+</div>
+<!-- //portfolio -->
+<!-- more skills -->
+<div id="skills" class="more">
+	<div class="container">
+		<h3 class="tittle ">Skills & Projects</h3>
+		<div class="col-md-6 skill-left ">
+			<div class="progress">
+				  <div class="progress-bar progress-bar-success" style="width: 30%">C++
+					<span class="sr-only">50% Complete (success)</span>
+				  </div>
+				  <div class="progress-bar progress-bar-warning " style="width: 35%">
+					<span class="sr-only"></span>
+				  </div>
+				  <p>50%</p>
+				  <div class="clearfix"></div>
+			</div>
+			<div class="progress">
+				  <div class="progress-bar progress-bar-success1" style="width: 30%">JAVA
+					<span class="sr-only">60% Complete (success)</span>
+				  </div>
+				  <div class="progress-bar progress-bar-warning1" style="width: 40%">
+					<span class="sr-only"></span>
+				  </div>
+				  <p>60%</p>
+				  <div class="clearfix"></div>
+			</div>
+			<div class="progress">
+				  <div class="progress-bar progress-bar-success3" style="width: 30%">MySQL
+					<span class="sr-only">40% Complete (success)</span>
+				  </div>
+				  <div class="progress-bar progress-bar-warning3 " style="width: 25%">
+					<span class="sr-only"></span>
+				  </div>
+				  <p>40%</p>
+				  <div class="clearfix"></div>
+			</div>
+			<div class="progress">
+				  <div class="progress-bar progress-bar-success2" style="width: 30%">Python
+					<span class="sr-only">25% Complete (success)</span>
+				  </div>
+				  <div class="progress-bar progress-bar-warning2" style="width: 15%">
+					<span class="sr-only"></span>
+				  </div>
+				  <p>25%</p>
+				  <div class="clearfix"></div>
+			</div>
+			
+			<div class="progress no-marg">
+				  <div class="progress-bar progress-bar-success4" style="width: 30%">Linux
+					<span class="sr-only">35% Complete (success)</span>
+				  </div>
+				  <div class="progress-bar progress-bar-warning4" style="width: 20%">
+					<span class="sr-only"></span>
+				  </div>
+				  <p>35%</p>
+				  <div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="col-md-6 skill-right ">
+			<div class="scrollbar scrollbar1">
+				<div class="more-gds">
+					<div class="col-sm-3 more-left">
+						<span class="glyphicon glyphicon-scissors" aria-hidden="true"></span>
+					</div>
+					<div class="col-sm-9 more-right">
+						<h4>Software Engineering Course Design (05/2018-06/2018)</h4>
+						<p>Developed a bank management system in the form of a website using JSP and JavaScript, which covered modules such as savings, loans, online banking, credit card transaction and so on; applied MySQL to manage the database, used Tomcat for debugging on the local server</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="more-gds yes_marg">
+					<div class="col-sm-9 more-right2">
+						<h4>Compiler Principle Course Project (04/2018-05/2018)</h4>
+						<li><a href="https://github.com/InterCoding/SNLCompiler" target="_blank">Source Code Repository</a></li>
+						<p>Wrote a Java application program to implement lexical analysis and LL(1) parser for a user-defined SNL (Small Nested Language), printed out the syntax tree if the parsing succeeded; used Token to record the line number, lexical information and semantic information of the words in the source program, stored all words in SNL to a list; created an identifier automaton and a digital constant automaton for lexical analysis, used Stack for LL(1) parsing</p>
+					</div>
+					<div class="col-sm-3 more-left">
+						<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="more-gds yes_marg">
+					<div class="col-sm-3 more-left">
+						<span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
+					</div>
+					<div class="col-sm-9 more-right">
+						<h4>Data Structure Course Project (12/2016-01/2017)</h4>
+						<p>Employed C + +, data structures and algorithms to simulate the connectivity of messages transmitted between nodes when mobile nodes moved on a grid-like road network; used Node, Matrix, Stack and the designed algorithm to determine whether the message could be successfully received between each pair of nodes in the original state, calculated the network state after the node moved, calculated the percentage of messages successfully delivered to the target</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="more-gds yes_marg">
+					<div class="col-sm-9 more-right2">
+						<h4>Programming Fundamentals Course Project (03/2016-04/2016)</h4>
+						<li><a href="https://github.com/InterCoding/Fundamentals-of-Programming-Course-Design" target="_blank">Source Code Repository</a></li>
+						<p>Designed a medicine information management system using C, provided functions such as inputting, deleting and searching medicine information, calculating medicine expiration dates, exporting information to files; built a structure where each node contained information about a medicine and a pointer to the next medicine</p>
+					</div>
+					<div class="col-sm-3 more-left">
+						<span class="glyphicon glyphicon-send" aria-hidden="true"></span>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- //num scroller -->
+<!-- portfolio -->
+<div id="hobbies" class="portfolio">
+	<div class="container">
+		<h3 class="tittle ">Hobbies & Favorites</h3>
+			<div class="portfolio-grids">
+				<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+				<script type="text/javascript">
+									$(document).ready(function () {
+										$('#horizontalTab').easyResponsiveTabs({
+											type: 'default', //Types: default, vertical, accordion           
+											width: 'auto', //auto or any width like 600px
+											fit: true   // 100% fit in a container
+										});
+									});
+									
+				</script>
+				<div class="sap_tabs">
+					<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+						<ul class="resp-tabs-list">
+							<li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>Traveling</span></li> 
+							<li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>Music</span></li> 
+							<li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>Sports</span></li> 
+							<li class="resp-tab-item" aria-controls="tab_item-3" role="tab"><span>Movie</span></li> 
+						</ul>				  	 
+						<div class="resp-tabs-container">
+							<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+								<div class="col-md-3 team-gd ">
+									<div class="thumb">
+										<a href="#portfolioModal1" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic4.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd ">
+									<div class="thumb">
+										<a href="#portfolioModal3" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic5.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd ">
+									<div class="thumb">
+										<a href="#portfolioModal2" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic9.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd ">
+									<div class="thumb">
+										<a href="#portfolioModal4" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic6.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd yes_marg ">
+									<div class="thumb">
+										<a href="#portfolioModal5" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic10.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd yes_marg ">
+									<div class="thumb">
+										<a href="#portfolioModal6" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic11.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd yes_marg ">
+									<div class="thumb">
+										<a href="#portfolioModal7" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic13.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd yes_marg ">
+									<div class="thumb">
+										<a href="#portfolioModal8" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic14.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+
+							<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+								<div class="col-md-3 team-gd ">
+									<div class="thumb">
+										<a href="#portfolioModal23" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic23.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd ">
+									<div class="thumb">
+										<a href="#portfolioModal24" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic24.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd ">
+									<div class="thumb">
+										<a href="#portfolioModal25" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic25.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd ">
+									<div class="thumb">
+										<a href="#portfolioModal26" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic26.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd yes_marg ">
+									<div class="thumb">
+										<a href="#portfolioModal27" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic27.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd yes_marg ">
+									<div class="thumb">
+										<a href="#portfolioModal28" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic28.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd yes_marg ">
+									<div class="thumb">
+										<a href="#portfolioModal29" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic29.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd yes_marg ">
+									<div class="thumb">
+										<a href="#portfolioModal30" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic30.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							
+							<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+								<div class="col-md-3 team-gd ">
+									<div class="thumb">
+										<a href="#portfolioModal22" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic22.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd ">
+									<div class="thumb">
+										<a href="#portfolioModal21" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic21.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd ">
+									<div class="thumb">
+										<a href="#portfolioModal20" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic20.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd ">
+									<div class="thumb">
+										<a href="#portfolioModal19" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic19.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd yes_marg ">
+									<div class="thumb">
+										<a href="#portfolioModal18" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic18.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd yes_marg ">
+									<div class="thumb">
+										<a href="#portfolioModal17" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic17.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd yes_marg ">
+									<div class="thumb">
+										<a href="#portfolioModal16" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic16.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd yes_marg ">
+									<div class="thumb">
+										<a href="#portfolioModal15" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic15.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							
+							<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-3">
+								<div class="col-md-3 team-gd ">
+									<div class="thumb">
+										<a href="#portfolioModal31" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic31.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd ">
+									<div class="thumb">
+										<a href="#portfolioModal32" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic32.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd ">
+									<div class="thumb">
+										<a href="#portfolioModal33" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic33.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd ">
+									<div class="thumb">
+										<a href="#portfolioModal34" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic34.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd yes_marg ">
+									<div class="thumb">
+										<a href="#portfolioModal35" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic35.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd yes_marg ">
+									<div class="thumb">
+										<a href="#portfolioModal36" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic36.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd yes_marg ">
+									<div class="thumb">
+										<a href="#portfolioModal37" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic37.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd yes_marg ">
+									<div class="thumb">
+										<a href="#portfolioModal38" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic38.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+</div>
+<!-- more skills -->
+<!-- contact -->
+<div id="contact" class="contact">
+	<div class="container">
+		<h3 class="tittle">Contact</h3>
+		<div class="col-md-6 contact-left ">
+			<div class="horizontal-tab">
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#tab1" data-toggle="tab" aria-expanded="false">Contact me</a></li>
+				</ul>
+				<div class="tab-content">
+					<div class="tab-pane active in" id="tab1">
+						<div class="contact-form">
+							<ul>
+								<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Tianhe Road, Tianhe District, <span>Guangzhou City.</span></li>
+								<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:zhangyl_0822@163.com">zhangyl_0822@163.com</a></li>
+								<li><i class="glyphicon glyphicon-tree-conifer" aria-hidden="true"></i><a href="https://www.linkedin.com/in/yulin-zhang-a075b3157" target="_blank">Linkedin</a></li>
+								<li><i class="glyphicon glyphicon-send" aria-hidden="true"></i>Facebook</li>
+								<li><i class="glyphicon glyphicon-leaf" aria-hidden="true"></i>Instagram</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+            </div>
+		</div>
+		<div class="col-md-6 contact-right ">
+			<iframe src="https://j.map.baidu.com/13NIZ" frameborder="0" style="border:0"></iframe>
+		</div>
+		<div class="clearfix"></div>
+		<p class="copy-right">&copy 2019 Yulin Zhang. All rights reserved</p>
+		<center><a href="http://www.miitbeian.gov.cn">粤ICP备18121981号-1</a></center>
+	</div>
+</div>
+<!-- //contact -->
+<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@Statue of Liberty</h3>
+                        <img src="images/pic4.jpg" class="img-responsive img-centered" alt="">
+                        <p>My friend, Zhuguang Liu, took this photo in New York in July 2017 when we were going on a cruise.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@Baltimore</h3>
+                        <img src="images/pic9.jpg" class="img-responsive img-centered" alt="">
+                        <p>My friend, Zhuguang Liu shot this photo in Baltimore, Maryland in July 2017.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@Wall Street</h3>
+                        <img src="images/pic5.jpg" class="img-responsive img-centered" alt="">
+                        <p>I took the picture of road signs when I was walking down the streets in Manhattan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@Harvard University</h3>
+                        <img src="images/pic6.jpg" class="img-responsive img-centered" alt="">
+                        <p>One of the most prestigious universities in the world!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@Victory Kiss</h3>
+                        <img src="images/pic10.jpg" class="img-responsive img-centered" alt="">
+                        <p>I shot the photo in San Diego, California.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@Universal Studio</h3>
+                        <img src="images/pic11.jpg" class="img-responsive img-centered" alt="">
+                        <p>Hey! The paradise for movie lovers!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@Princeton University</h3>
+                        <img src="images/pic13.jpg" class="img-responsive img-centered" alt="">
+                        <p>I love the environment of the university.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@University of Florida</h3>
+                        <img src="images/pic14.jpg" class="img-responsive img-centered" alt="">
+                        <p>The mascot of UF, aligator!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal15" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@Guangzhou Evergrande Taobao Football Club</h3>
+                        <img src="images/pic15.jpg" class="img-responsive img-centered" alt="">
+                        <p>My home team.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal16" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@Donovan Mitchell</h3>
+                        <img src="images/pic16.jpg" class="img-responsive img-centered" alt="">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal17" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@John Wall</h3>
+                        <img src="images/pic17.jpg" class="img-responsive img-centered" alt="">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal18" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@Neymar</h3>
+                        <img src="images/pic18.jpg" class="img-responsive img-centered" alt="">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal19" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@Mbappé</h3>
+                        <img src="images/pic19.jpg" class="img-responsive img-centered" alt="">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal20" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@Reus</h3>
+                        <img src="images/pic20.jpg" class="img-responsive img-centered" alt="">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal21" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@Lebron James</h3>
+                        <img src="images/pic21.jpg" class="img-responsive img-centered" alt="">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal22" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@Bingtian Su</h3>
+                        <img src="images/pic22.jpg" class="img-responsive img-centered" alt="">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal23" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@Coldplay</h3>
+                        <img src="images/pic23.jpg" class="img-responsive img-centered" alt="">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal24" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@Imagine Dragons</h3>
+                        <img src="images/pic24.jpg" class="img-responsive img-centered" alt="">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal25" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@Westlife</h3>
+                        <img src="images/pic25.jpg" class="img-responsive img-centered" alt="">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal26" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@One Republic</h3>
+                        <img src="images/pic26.jpg" class="img-responsive img-centered" alt="">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal27" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@Linkin Park</h3>
+                        <img src="images/pic27.jpg" class="img-responsive img-centered" alt="">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal28" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@Adele</h3>
+                        <img src="images/pic28.jpg" class="img-responsive img-centered" alt="">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal29" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@Ed Sheeran</h3>
+                        <img src="images/pic29.jpg" class="img-responsive img-centered" alt="">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal30" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@Taylor Swift</h3>
+                        <img src="images/pic30.jpg" class="img-responsive img-centered" alt="">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal31" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@Fast & Furious</h3>
+                        <img src="images/pic31.jpg" class="img-responsive img-centered" alt="">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal32" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@Marvel</h3>
+                        <img src="images/pic32.jpg" class="img-responsive img-centered" alt="">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal33" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@Pirates of the Caribbean</h3>
+                        <img src="images/pic33.jpg" class="img-responsive img-centered" alt="">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal34" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@the Pursuit of Happyness</h3>
+                        <img src="images/pic34.jpg" class="img-responsive img-centered" alt="">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal35" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@Terminator</h3>
+                        <img src="images/pic35.jpg" class="img-responsive img-centered" alt="">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal36" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@Transformers</h3>
+                        <img src="images/pic36.jpg" class="img-responsive img-centered" alt="">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal37" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@300：Rise of an Empire</h3>
+                        <img src="images/pic37.jpg" class="img-responsive img-centered" alt="">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal38" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>@Fury</h3>
+                        <img src="images/pic38.jpg" class="img-responsive img-centered" alt="">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+                        <img src="images/pic1.jpg" class="img-responsive img-centered" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+	<!--scrolling js-->
+	<script src="js/jquery.nicescroll.js"></script>
+	<script src="js/scripts.js"></script>
+	<!--//scrolling js-->
+	<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+			};
+		*/								
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+
+</body>
+</html>
