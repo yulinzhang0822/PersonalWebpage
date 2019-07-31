@@ -116,7 +116,7 @@ body a:hover{
     font-size: 14px;
     line-height: 3em;
     list-style-type: none;
-    color: black;
+    color: white;
 }
 ul.list-left {
     float: left;
@@ -125,6 +125,7 @@ ul.list-left {
 ul.list-right {
     float: left;
     width: 73%;
+    color: white;
 }
 ul.list-left li {
     font-weight: 700;
