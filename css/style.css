@@ -121,6 +121,7 @@ body a:hover{
 ul.list-left {
     float: left;
     width: 27%;
+    color: white;
 }
 ul.list-right {
     float: left;
@@ -131,8 +132,11 @@ ul.list-left li {
     font-weight: 700;
     color: #10A7AF;
 }
+#student {
+    color: white;
+}
 .header-right ul li a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 .header{
